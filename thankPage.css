@@ -1,0 +1,22 @@
+#final {
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px;
+    box-shadow: rgba(220, 47, 47, 0.2) 0px 2px 8px 0px;
+  }
+  button {
+    margin-left: 40%;
+    margin-top: 50px;
+    font-size: medium;
+    font-weight: bold;
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+  }
