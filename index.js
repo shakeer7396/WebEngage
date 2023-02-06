@@ -21,7 +21,10 @@ const handleCode = () => {
 
 /*Funtion to store the user details in localstorage*/
 const submit = () => {
-  if (phoneNumber.length < 10) {
+    // if(email.length && phoneNumber.length == ''){
+    //     alert("Please Enter email && mobile number")
+    // }
+   if (phoneNumber.length < 10) {
     alert(" You have entered an invalid Mobile number -  It is too short - length sould be equal to 10 numbers ");
   }
    else if (phoneNumber.length > 10) {
